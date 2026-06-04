@@ -659,196 +659,196 @@
 
 - name: Galaganatha Sanchaya
   description: Complete literary works of Venkatesha Tiruko Kulkarni Galaganatha digitized for easy access by Kannada readers.
-  url: "https://github.com/sanchaya/galaganatha"
+  url: "https://galaganatha.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Gandhi Sanchaya
   description: Digital collection of Mahatma Gandhi's literature in Kannada translation, making Gandhian philosophy accessible.
-  url: "https://github.com/sanchaya/gandhi"
+  url: "https://gandhi.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: C. P. Nagaraj Collection
   description: Complete literary works of C. P. Nagaraj digitized under the Servants of Knowledge initiative for free access.
-  url: "https://github.com/sanchaya/cpnagaraj"
+  url: "https://cpnagaraj.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Kanavi Literary Collection
   description: Complete works of Dr. Chennaveera Kanavi digitized for open access to Kannada readers and researchers.
-  url: "https://github.com/sanchaya/kanavi"
+  url: "https://kanavi.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: K. S. K. Collection
   description: Complete works of Dr. Keshava Sharma K. digitized with family permission for public access.
-  url: "https://github.com/sanchaya/ksk"
+  url: "https://ksk.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: K. V. Narayana Collection
   description: Complete volumes of Dr. K. V. Narayana's literary works digitized under the Servants of Knowledge initiative.
-  url: "https://github.com/sanchaya/kvn"
+  url: "https://kvn.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: K. V. Subbanna Collection
   description: Digitized works of K. V. Subbanna in collaboration with Akshara Prakashana and Sanchi Foundation.
-  url: "https://github.com/sanchaya/kvsubbanna"
+  url: "https://kvsubbanna.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: D. S. Nagabhushana Collection
   description: Complete works of D. S. Nagabhushana, Kendra Sahitya Akademi awardee, digitized for public access.
-  url: "https://github.com/sanchaya/dsn"
+  url: "https://dsn.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Niranjana Sanchaya
   description: Digitized books of the well-known Kannada author and editor Sri Niranjana, preserved for future generations.
-  url: "https://github.com/sanchaya/niranjana"
+  url: "https://niranjana.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: B. H. Sridhar Collection
   description: Complete Kannada literature of B. H. Sridhar digitized for open access under the digitization initiative.
-  url: "https://github.com/sanchaya/bhshridhar"
+  url: "https://bhshridhar.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Kaikini Literary Collection
   description: Works of Dr. Gowreesh Kaikini digitized with permission from Jayant Kaikini, making them freely accessible.
-  url: "https://github.com/sanchaya/kaikini"
+  url: "https://kaikini.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Kadana Kuppe Collection
   description: Complete works of Prof. Shivaramu Kadanakuppe digitized with family support for public access.
-  url: "https://github.com/sanchaya/kadanakuppe"
+  url: "https://kadanakuppe.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Basavaraja Swamy Collection
   description: Digital collection of Basavaraja Swamy's literary works preserved and made accessible online.
-  url: "https://github.com/sanchaya/basavarajaswamy"
+  url: "https://basavarajaswamy.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Vijaya Subbaraj Collection
   description: Complete literary works of Dr. Vijaya Subbaraj digitized for open access under Servants of Knowledge.
-  url: "https://github.com/sanchaya/vijayasubbaraj"
+  url: "https://vijayasubbaraj.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Kamat Digitization Project
   description: Works of Dr. Krishnananda Kamat digitized in collaboration with kamat.com and Sanchi Foundation.
-  url: "https://github.com/sanchaya/kamat"
+  url: "https://kamat.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: A. P. Malathi Collection
   description: Digital Kannada books of A. P. Malathi, preserving her literary contributions for wider access.
-  url: "https://github.com/sanchaya/apmalathi"
+  url: "https://apmalathi.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Dr. M. Venkataswamy Collection
   description: Digital books collection of Dr. M. Venkataswamy from Sanchi Foundation and Sanchaya open knowledge initiatives.
-  url: "https://github.com/sanchaya/mvenkataswamy"
+  url: "https://mvenkataswamy.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: R. V. Bhandari Collection
   description: Works of Dr. R. V. Bhandari digitized through Sanchi Foundation and Sanchaya for public access.
-  url: "https://github.com/sanchaya/rvbhandari"
+  url: "https://rvbhandari.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Dr. R. Lakshminarayana Collection
   description: Digital collection of Dr. R. Lakshminarayana's Kannada literary works preserved for research and reading.
-  url: "https://github.com/sanchaya/rlakshminarayana"
+  url: "https://rlakshminarayana.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Marakini Collection
   description: Literary works of the Marakini couple digitized for Kannada readers with family cooperation.
-  url: "https://github.com/sanchaya/marakini"
+  url: "https://marakini.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: P. V. Narayana Collection
   description: Digital Kannada books of P. V. Narayana preserved and made accessible through the digitization initiative.
-  url: "https://github.com/sanchaya/pvn"
+  url: "https://pvn.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Ramjan Darga Collection
   description: Complete literary works of Ramjan Darga digitized under the Servants of Knowledge project.
-  url: "https://github.com/sanchaya/ramjandarga"
+  url: "https://ramjandarga.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Shantanaik Collection
   description: Complete works of Shiragarahalli Shantanaik digitized at Gandhi Bhavan, Bengaluru for public access.
-  url: "https://github.com/sanchaya/shantanaik"
+  url: "https://shantanaik.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Savitha Nagabhushana Collection
   description: Complete literary works of poetess Savitha Nagabhushana digitized for open access.
-  url: "https://github.com/sanchaya/savitha"
+  url: "https://savitha.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Jayashri Sukale Collection
   description: Digital collection of Jayashri Sukale's Kannada literary works preserved for readers.
-  url: "https://github.com/sanchaya/jayashrisukale"
+  url: "https://jayashrisukale.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Padma Shreedhar Collection
   description: Kannada literary works of Padma Shreedhar digitized for free access by the reading community.
-  url: "https://github.com/sanchaya/padmashreedhar"
+  url: "https://padmashreedhar.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Shirahatti Collection
   description: Books of Lakkappa A. Shirahatti digitized and made available through the Sanchaya platform.
-  url: "https://github.com/sanchaya/shirahatti"
+  url: "https://shirahatti.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: G. Krishnaappa Collection
   description: Digital Kannada books of G. Krishnaappa preserved for public access and research.
-  url: "https://github.com/sanchaya/gkrishnappa"
+  url: "https://gkrishnappa.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
@@ -864,56 +864,56 @@
 
 - name: Achala Magazine Archive
   description: Issues of Achala monthly magazine (1985-2007) published by Jagruti Mahila Adhyayana Kendra, digitized for preservation.
-  url: "https://github.com/sanchaya/achala"
+  url: "https://achala.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: Bhavana Magazine Archive
   description: Issues of Bhavana Kannada monthly magazine edited by Jayant Kaikini, digitized for public access.
-  url: "https://github.com/sanchaya/bhavana"
+  url: "https://bhavana.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: Antaranga Magazine Archive
   description: Issues of Antaranga magazine digitized in collaboration with Chhaya Upadhyay and Mysore University.
-  url: "https://github.com/sanchaya/antaranga"
+  url: "https://antaranga.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: Bisilabadhuku Magazine Archive
   description: Issues of Bisilabadhuku Kannada monthly magazine preserved through digital archiving.
-  url: "https://github.com/sanchaya/bisilabadhuku"
+  url: "https://bisilabadhuku.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: Deevatige Newspaper Archive
   description: Issues of Deevatige newspaper edited by Sirimane Nagaraj, digitized for historical preservation.
-  url: "https://github.com/sanchaya/deevatige"
+  url: "https://deevatige.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: Hosa Manushya Magazine Archive
   description: Hosa Manushya magazine edited by D. S. Nagabhushana, a珍贵 Kannada literary resource digitized with family support.
-  url: "https://github.com/sanchaya/hosamanushya"
+  url: "https://hosamanushya.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: Hosatu Magazine Archive
   description: Issues of Hosatu magazine published by Navakarnataka Publications, digitized at IISc Bengaluru.
-  url: "https://github.com/sanchaya/hosatu"
+  url: "https://hosatu.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: Honganasu Newsletter Archive
   description: Honganasu newsletter of B. M. Sri Pratisthana, digitized for preservation and access.
-  url: "https://github.com/sanchaya/honganasu"
+  url: "https://honganasu.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
@@ -927,42 +927,42 @@
 
 - name: Kanaka Science Newsletter
   description: Kanaka Science Newsletter digitized for promoting scientific literacy in Kannada language.
-  url: "https://github.com/sanchaya/kanaka"
+  url: "https://kanaka.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: Kuthuhali Science Magazine Archive
   description: Kuthuhali Kannada science magazine issues digitized for easy access to scientific knowledge in Kannada.
-  url: "https://github.com/sanchaya/kuthuhali"
+  url: "https://kuthuhali.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: Lochana Journal Archive
   description: Lochana - half-yearly scholarly journal digitized in collaboration with B. M. Sri Pratisthana.
-  url: "https://github.com/sanchaya/lochana"
+  url: "https://lochana.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: Maathukathe Magazine Archive
   description: Maathukathe - Ninasam theatre education center's magazine digitized with permission from K. V. Akshara and Shishir.
-  url: "https://github.com/sanchaya/maathukathe"
+  url: "https://maathukathe.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: Munjavu Newspaper Archive
   description: Munjavu newspaper edited by Sirimane Nagaraj, digitized for historical and literary research.
-  url: "https://github.com/sanchaya/munjavu"
+  url: "https://munjavu.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: Naguva Nanda Weekly Archive
   description: Naguva-Nanda weekly magazine published by Subodha Prakatanalaya, digitized for public access.
-  url: "https://github.com/sanchaya/naguvananda"
+  url: "https://naguvananda.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
@@ -976,14 +976,14 @@
 
 - name: Samvaada Maasika Archive
   description: Samvaada monthly magazine edited by Indudhara Honnapura, digitized for Kannada literary preservation.
-  url: "https://github.com/sanchaya/samvaada-maasika"
+  url: "https://samvaada.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: Sutra Science Monthly Archive
   description: Sutra - practical science and mathematics monthly magazine published by Dr. T. R. Anantaramu Science Foundation.
-  url: "https://github.com/sanchaya/sutra"
+  url: "https://sutra.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
@@ -992,105 +992,105 @@
 
 - name: Ithihasa Darshana
   description: Volumes of Ithihasa Darshana published by the Karnataka History Academy, digitized for historical research.
-  url: "https://github.com/sanchaya/ithihasadarshana"
+  url: "https://ithihasadarshana.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: K. U. Hampi Collection
   description: Books from Kannada University, Hampi digitized for wider access to academic Kannada publications.
-  url: "https://github.com/sanchaya/kuh"
+  url: "https://kuh.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Kannada Sahitya Ranga
   description: Books published by Kannada Sahitya Ranga, USA digitized at Gandhi Bhavan, Bengaluru for global Kannada readers.
-  url: "https://github.com/sanchaya/kannadasahityaranga"
+  url: "https://kannadasahityaranga.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Lalitakala Academy Books
   description: Publications of Karnataka Lalitakala Academy digitized for easy access to fine arts literature in Kannada.
-  url: "https://github.com/sanchaya/lalitakale"
+  url: "https://lalitakale.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Shilpakala Academy Books
   description: Publications of Karnataka Shilpakala Academy digitized for preserving crafts and sculpture knowledge in Kannada.
-  url: "https://github.com/sanchaya/shilpakale"
+  url: "https://shilpakale.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Archaeology Department Collection
   description: Books from the Directorate of Archaeology and Museums, Karnataka digitized for historical research.
-  url: "https://github.com/sanchaya/archaeology.kar"
+  url: "https://archaeology.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Dharmathadka Library Collection
   description: Books from a rural youth association library in Dharmathadka, Kasaragod digitized under Servants of Knowledge.
-  url: "https://github.com/sanchaya/dharmathadka"
+  url: "https://dharmathadka.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: SSACC College Library Collection
   description: Valuable Kannada books from Shankar Arts & Commerce College, Navalagunda digitized at IISc Bengaluru.
-  url: "https://github.com/sanchaya/ssacc"
+  url: "https://ssacc.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Siddhaganga Magazine Archive
   description: Siddhaganga magazine published by Old Students Association, Siddhaganga Kshetra, Tumkur digitized for preservation.
-  url: "https://github.com/sanchaya/siddhaganga"
+  url: "https://siddhaganga.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization, Magazine]
 
 - name: CFTR Archive
   description: CSIR - Central Food Technological Research Institute weeded-out books digitized for archival preservation.
-  url: "https://github.com/sanchaya/cftri"
+  url: "https://cftri.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Arebashe Academy Collection
   description: Books digitized in collaboration with Karnataka Arebashe Samskriti Mattu Sahitya Academy under the digitization project.
-  url: "https://github.com/sanchaya/arebashe"
+  url: "https://arebashe.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Panchama Sanchaya
   description: Digital collection of Panchama literary works preserved and made accessible for readers and researchers.
-  url: "https://github.com/sanchaya/panchama"
+  url: "https://panchama.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Woodey P. Krishna Collection
   description: Digital Kannada books of Woodey P. Krishna preserved for public access through the digitization initiative.
-  url: "https://github.com/sanchaya/woodeypkrishna"
+  url: "https://woodeypkrishna.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: H. D. Chandrappa Gowda Collection
   description: Works of Dr. H. D. Chandrappa Gowda digitized and made accessible through Sanchaya's digitization platform.
-  url: "https://github.com/sanchaya/hdc"
+  url: "https://hdc.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Sochara Health Resources
   description: Community health digital resources in Kannada digitized in collaboration with SOCHARA organization.
-  url: "https://github.com/sanchaya/sochara"
+  url: "https://sochara.sanchaya.net"
   languages: [Kannada]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
@@ -1099,28 +1099,28 @@
 
 - name: Konkani Books Sanchaya
   description: Digital showcase of Konkani language books, preserving Konkani literature for the community.
-  url: "https://github.com/sanchaya/konkani"
+  url: "https://konkani.sanchaya.net"
   languages: [Konkani]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Odia Books Sanchaya
   description: Odiya language books sourced from Internet Archive, curated and presented for the Odia community.
-  url: "https://github.com/sanchaya/odia"
+  url: "https://odia.sanchaya.net"
   languages: [Odia]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Sindhi Books Sanchaya
   description: Digital collection of Sindhi language books preserved and made accessible for the Sindhi community.
-  url: "https://github.com/sanchaya/sindhi"
+  url: "https://sindhi.sanchaya.net"
   languages: [Sindhi]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]
 
 - name: Tulu Books Sanchaya
   description: Digital books in the Tulu language, preserving and promoting Tulu literature and heritage.
-  url: "https://github.com/sanchaya/tulu"
+  url: "https://tulu.sanchaya.net"
   languages: [Tulu]
   categories: [Book Indexes, Data]
   tags: [FOSS, Digitization]

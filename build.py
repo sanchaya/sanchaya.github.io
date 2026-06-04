@@ -3,6 +3,7 @@
 # Sanchaya.page build script
 
 from collections import OrderedDict
+from urllib.parse import urlparse
 import shutil
 import os
 import yaml
@@ -15,6 +16,8 @@ def load_data(file):
 		for item in out:
 			item["languages"].sort()
 			item["tags"].sort()
+			url = item["url"]
+			item["url_pretty"] = url.removeprefix("https://").removeprefix("http://")
 		return out
 
 
