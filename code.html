@@ -38,19 +38,19 @@
 	<div class="container">
 		<section class="sidebar" id="sidebar">
 			<ul class="index">
-        <li class=""><a href="index.html">All (2)</a></li>
+        <li class=""><a href="index.html">All (42)</a></li>
         
-        <li class=""><a href="books.html">Books (8)</a></li>
+        <li class=""><a href="books.html">Books (75)</a></li>
         
-        <li class="selected"><a href="code.html">Code (2)</a></li>
+        <li class="selected"><a href="code.html">Code (42)</a></li>
         
-        <li class=""><a href="data.html">Data (9)</a></li>
+        <li class=""><a href="data.html">Data (92)</a></li>
         
-        <li class=""><a href="fonts.html">Fonts (2)</a></li>
+        <li class=""><a href="fonts.html">Fonts (28)</a></li>
         
         <li class=""><a href="organisations.html">Organisations (1)</a></li>
         
-        <li class=""><a href="tools.html">Tools (7)</a></li>
+        <li class=""><a href="tools.html">Tools (48)</a></li>
         
 			</ul>
 		</section>
@@ -61,9 +61,23 @@
 				<a href="#" id="toggle-filters">Filter &rarr;</a>
 			
 			<section class="section" id="organisations">
-				<h3>Code (2)</h3>
+				<h3>Code (42)</h3>
 
 				<div class="filters" id="filters">
+					
+						<div class="languages">
+							
+								<label id="lang-English">
+									<input type="checkbox" class="filter-language" for="lang-English" checked value="english" />English
+								</label>
+							
+								<label id="lang-Kannada">
+									<input type="checkbox" class="filter-language" for="lang-Kannada" checked value="kannada" />Kannada
+								</label>
+							
+
+							<a href="#" class="toggle-filters" data-target="language" data-state="on">&larr; Toggle</a>
+						</div>
 					
 
 					
@@ -73,12 +87,44 @@
 									<input type="checkbox" class="filter-tag" for="tag-FOSS" checked value="foss" />FOSS
 								</label>
 							
+								<label id="tag-Go">
+									<input type="checkbox" class="filter-tag" for="tag-Go" checked value="go" />Go
+								</label>
+							
 								<label id="tag-JavaScript">
 									<input type="checkbox" class="filter-tag" for="tag-JavaScript" checked value="javascript" />JavaScript
 								</label>
 							
+								<label id="tag-ML">
+									<input type="checkbox" class="filter-tag" for="tag-ML" checked value="ml" />ML
+								</label>
+							
+								<label id="tag-PHP">
+									<input type="checkbox" class="filter-tag" for="tag-PHP" checked value="php" />PHP
+								</label>
+							
 								<label id="tag-Python">
 									<input type="checkbox" class="filter-tag" for="tag-Python" checked value="python" />Python
+								</label>
+							
+								<label id="tag-Research">
+									<input type="checkbox" class="filter-tag" for="tag-Research" checked value="research" />Research
+								</label>
+							
+								<label id="tag-Ruby">
+									<input type="checkbox" class="filter-tag" for="tag-Ruby" checked value="ruby" />Ruby
+								</label>
+							
+								<label id="tag-Shell">
+									<input type="checkbox" class="filter-tag" for="tag-Shell" checked value="shell" />Shell
+								</label>
+							
+								<label id="tag-TypeScript">
+									<input type="checkbox" class="filter-tag" for="tag-TypeScript" checked value="typescript" />TypeScript
+								</label>
+							
+								<label id="tag-Web">
+									<input type="checkbox" class="filter-tag" for="tag-Web" checked value="web" />Web
 								</label>
 							
 
@@ -90,6 +136,243 @@
 				<ul id="items">
 					
 						<li class="item"
+							data-languages="english|kannada|"
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/Akaya-Kanadaka" class="link">Akaya Kanadaka</a>
+							</h2>
+
+							<p class="description">Bilingual Kannada + Latin text processing and display tools for mixed-script content.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">English</span>
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-3 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages="kannada|"
+							data-tags="foss|typescript|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">TypeScript</span>
+								
+								<a href="https://github.com/sanchaya/akshara" class="link">Akshara Sanchaya</a>
+							</h2>
+
+							<p class="description">Tool to analyze Kannada text and count varnas (syllables), swaras (vowels), vyanjanas (consonants), and other linguistic elements.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/anuvaad-corpus-tools" class="link">Anuvada Corpus Tools</a>
+							</h2>
+
+							<p class="description">Translation corpus tools for building and managing parallel text datasets for Indian language machine translation.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/archive-pdf-tools" class="link">Archive PDF Tools</a>
+							</h2>
+
+							<p class="description">Fast PDF generation and compression tools designed for processing millions of pages in digitization workflows.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages="kannada|"
+							data-tags="foss|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/ascii2unicode" class="link">ASCII to Unicode Converter</a>
+							</h2>
+
+							<p class="description">Python tool for converting legacy ASCII-encoded Kannada text to Unicode standard encoding.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/bookspace-scraper" class="link">Bookspace Scraper</a>
+							</h2>
+
+							<p class="description">Data scraping tools for harvesting digital books from various online portals and catalogs.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|shell|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Shell</span>
+								
+								<a href="https://github.com/sanchaya/comicconvert" class="link">Comic Convert</a>
+							</h2>
+
+							<p class="description">Simple script to convert CBR and CBZ comic archives to easy-to-read PDF format for broader accessibility.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|go|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Go</span>
+								
+								<a href="https://github.com/sanchaya/dictpress" class="link">Dictpress</a>
+							</h2>
+
+							<p class="description">Standalone web server application for building and publishing full-fledged dictionary websites and APIs for any language.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|python|shell|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+									<span class="tag">Shell</span>
+								
+								<a href="https://github.com/sanchaya/decode-download.sh" class="link">Digitization Utilities</a>
+							</h2>
+
+							<p class="description">Collection of utility scripts including URL decoding, Google Drive downloads, file filtering, and data transposition tools for digitization workflows.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/eap-books-rescue" class="link">EAP Books Rescue</a>
+							</h2>
+
+							<p class="description">Python automation script for downloading endangered archives from the British Library's EAP (Endangered Archives Programme).</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/eap2pdf" class="link">EAP to PDF Converter</a>
+							</h2>
+
+							<p class="description">Tool for converting books from the British Library's EAP format to standard PDF for easier access.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
 							data-languages="kannada|"
 							data-tags="foss|javascript|">
 							<h2 class="title">
@@ -98,10 +381,245 @@
 								
 									<span class="tag">JavaScript</span>
 								
-								<a href="https://github.com/sanchaya/akshara" class="link">Akshara Sanchaya</a>
+								<a href="https://github.com/sanchaya/epub.js" class="link">EPUB.js</a>
 							</h2>
 
-							<p class="description">Tool to analyze Kannada text and count varnas (syllables), swaras (vowels), vyanjanas (consonants), and other linguistic elements in Kannada text.</p>
+							<p class="description">Enhanced eBook reader in the browser, adapted for reading Kannada EPUB books online.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/hindkit" class="link">HindKit</a>
+							</h2>
+
+							<p class="description">Build system for the Hind multi-script font project, enabling automated font development workflows.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages="kannada|"
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/hyphenation" class="link">Hyphenation Patterns</a>
+							</h2>
+
+							<p class="description">Hyphenation patterns for Indian languages including Kannada, enabling proper text justification and line breaking.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/indic-punct" class="link">Indic Punctuation</a>
+							</h2>
+
+							<p class="description">Tools and data for handling punctuation in Indian languages, supporting proper text processing and typesetting.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/IndicSceneTextRendering" class="link">Indic Scene Text Rendering</a>
+							</h2>
+
+							<p class="description">Script to render synthetic scene text word images with Unicode rendering support for multiple Indian scripts.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/indic2unicode" class="link">Indic to Unicode</a>
+							</h2>
+
+							<p class="description">Conversion tools for migrating from various Indic encoding schemes to Unicode standard format.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/indic-trans" class="link">Indic Transliteration</a>
+							</h2>
+
+							<p class="description">State-of-the-art transliteration module for cross-transliteration among all Indian languages including English.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/internetarchive" class="link">Internet Archive Tools</a>
+							</h2>
+
+							<p class="description">Python and CLI interface to Archive.org for automated uploading, downloading, and managing digital collections.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|javascript|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">JavaScript</span>
+								
+								<a href="https://github.com/sanchaya/jquery.ime" class="link">jQuery Input Methods</a>
+							</h2>
+
+							<p class="description">jQuery-based input methods library providing cross-platform Indic language input capabilities for web applications.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages="kannada|"
+							data-tags="foss|ml|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">ML</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/KannadaHandwritingRecognition" class="link">Kannada Handwriting Recognition</a>
+							</h2>
+
+							<p class="description">Optical Character Recognition system for handwritten Kannada documents using machine learning approaches.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages="kannada|"
+							data-tags="foss|shell|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Shell</span>
+								
+								<a href="https://github.com/sanchaya/kn-hunspell" class="link">Kannada Hunspell</a>
+							</h2>
+
+							<p class="description">Kannada affix and dictionary files for Hunspell spell checker, enabling spell checking for Kannada text.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages="kannada|"
+							data-tags="foss|web|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Web</span>
+								
+								<a href="https://github.com/sanchaya/Kannada-Sandhi-Splitter-Web" class="link">Kannada Sandhi Splitter</a>
+							</h2>
+
+							<p class="description">Web-based tool for splitting compound words (sandhis) in Kannada into their original components using linguistic algorithms.</p>
 
 							<div class="tags">
 								
@@ -121,10 +639,10 @@
 								
 									<span class="tag">Python</span>
 								
-								<a href="https://github.com/sanchaya/typeextract" class="link">TypeExtract</a>
+								<a href="https://github.com/sanchaya/knphone" class="link">KNphone</a>
 							</h2>
 
-							<p class="description">Typeface extraction tool for the Kannada Revival Fonts project. Helps extract and analyze glyph data from legacy typefaces.</p>
+							<p class="description">Phonetic algorithm for indexing Kannada words by their pronunciation, similar to Metaphone for English.</p>
 
 							<div class="tags">
 								
@@ -132,6 +650,380 @@
 								
 
 								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages="kannada|"
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/kuvempu" class="link">Kuvempu Kannada Software</a>
+							</h2>
+
+							<p class="description">Source code of the Kuvempu Kannada software obtained through RTI, providing access to legacy Kannada computing tools.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages="kannada|"
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/LanguagePack" class="link">Language Pack</a>
+							</h2>
+
+							<p class="description">Deprecated language pack for Kannada system-level localization and language support.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/libindic-web" class="link">libindic Web</a>
+							</h2>
+
+							<p class="description">Web interface for libindic libraries, providing browser-based access to Indian language processing tools.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/lipika-engine" class="link">Lipika Engine</a>
+							</h2>
+
+							<p class="description">Engine for phonetic transliteration-based input method with built-in support for all Indic languages.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/make_ebooks" class="link">Make Ebooks</a>
+							</h2>
+
+							<p class="description">Ebook generation tool producing A4 PDF, 6-inch PDF, EPUB, and MOBI formats using Pandoc and XeTeX.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/OCR4wikisource" class="link">OCR for Wikisource</a>
+							</h2>
+
+							<p class="description">OCR tool leveraging Google Drive OCR capabilities for processing text for Wikisource integration.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages="kannada|"
+							data-tags="foss|php|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">PHP</span>
+								
+								<a href="https://github.com/sanchaya/Omeka-plugin-BookReader" class="link">Omeka BookReader Plugin</a>
+							</h2>
+
+							<p class="description">Plugin integrating Internet Archive BookReader into Omeka digital exhibition platforms for Kannada collections.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages="kannada|"
+							data-tags="foss|ruby|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Ruby</span>
+								
+								<a href="https://github.com/sanchaya/sanchaya-api" class="link">Sanchaya API</a>
+							</h2>
+
+							<p class="description">Open Data API providing programmatic access to various Sanchaya project datasets and resources for developers and researchers.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages="kannada|"
+							data-tags="foss|research|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Research</span>
+								
+								<a href="https://github.com/sanchaya/SiriBhoovalaya" class="link">Siri Bhoovalaya</a>
+							</h2>
+
+							<p class="description">Library and sample application exploring the Siri Bhoovalaya encryption technique, a unique Kannada cryptographic work.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|php|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">PHP</span>
+								
+								<a href="https://github.com/sanchaya/slims9_bulian" class="link">SLiMS Library Management</a>
+							</h2>
+
+							<p class="description">SLiMS 9 Bulian open source library management system customized for Kannada library cataloging needs.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/sok-archive-stats" class="link">SOK Archive Stats</a>
+							</h2>
+
+							<p class="description">Python module for tracking and analyzing view statistics of books uploaded to Internet Archive for impact assessment.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/spellchecker" class="link">Spellchecker for Indian Languages</a>
+							</h2>
+
+							<p class="description">Experimental spellchecker for Indian languages extracted from the SILPA project, enabling spell checking capabilities.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages="kannada|"
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/syllabalizer" class="link">Syllabalizer</a>
+							</h2>
+
+							<p class="description">Linguistic tool to syllabify each word in given Kannada text, breaking words into constituent syllables.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/telegram_media_downloader" class="link">Telegram Media Downloader</a>
+							</h2>
+
+							<p class="description">Tool for downloading media files from Telegram conversations, channels, and chats for archiving purposes.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages="kannada|"
+							data-tags="foss|ruby|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Ruby</span>
+								
+								<a href="https://github.com/sanchaya/text-research-app" class="link">Text Research App</a>
+							</h2>
+
+							<p class="description">Ruby-based application for text analysis and research on Kannada literary works and corpora.</p>
+
+							<div class="tags">
+								
+									<span class="tag lang">Kannada</span>
+								
+
+								<a href="" class="reveal">+-4 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/Transliteration" class="link">Transliteration Module</a>
+							</h2>
+
+							<p class="description">Core transliteration module for Indian languages, providing programmatic script conversion capabilities.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|python|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+									<span class="tag">Python</span>
+								
+								<a href="https://github.com/sanchaya/twisource" class="link">Twitter Source (twisource)</a>
+							</h2>
+
+							<p class="description">Collaboration Twitter client for posting tweets from file, used for sharing digitization updates from Sanchaya.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
+							</div>
+						</li>
+					
+						<li class="item"
+							data-languages=""
+							data-tags="foss|">
+							<h2 class="title">
+								
+									<span class="tag">FOSS</span>
+								
+								<a href="https://github.com/sanchaya/vtranslit" class="link">vTranslit</a>
+							</h2>
+
+							<p class="description">Transliterator between ITRANS and any Indic script, enabling cross-script text conversion.</p>
+
+							<div class="tags">
+								
+
+								<a href="" class="reveal">+-5 &larr; View all</a>
 							</div>
 						</li>
 					
