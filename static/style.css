@@ -200,6 +200,20 @@ footer {
 		border-bottom: 2px solid #e67e22;
 	}
 
+	.item .url.github a {
+		color: #999;
+	}
+	.item .url.github a:hover {
+		color: #111;
+		border-bottom: 2px solid #111;
+	}
+	.github-icon {
+		width: 14px;
+		height: 14px;
+		vertical-align: middle;
+		margin-right: 3px;
+	}
+
 @media(max-width: 750px) {
 	.wrap {
 		padding: 15px;

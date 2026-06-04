@@ -17,7 +17,9 @@ def load_data(file):
 			item["languages"].sort()
 			item["tags"].sort()
 			url = item["url"]
+			hostname = urlparse(url).hostname or ""
 			item["url_pretty"] = url.removeprefix("https://").removeprefix("http://")
+			item["is_cname"] = hostname.endswith(".sanchaya.net") or hostname == "sanchaya.net"
 		return out
 
 
