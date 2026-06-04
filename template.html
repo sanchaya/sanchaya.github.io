@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{{ category }} / Sanchaya - Kannada language computing projects and resources</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Directory of {{ category }} projects by Sanchaya for Kannada language computing." />
+	<meta name="referrer" content="no-referrer">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="image_src" href="https://sanchaya.page/static/thumb.png" />
+
+	<meta property="og:title" content="{{ category }} / Sanchaya projects" />
+	<meta property="og:description" content="Directory of {{ category }} by Sanchaya for Kannada language computing." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://sanchaya.page/{% if category == 'All Projects' %}index{% else %}{{ category | lower }}{% endif %}.html" />
+	<meta property="og:image" content="https://sanchaya.page/static/thumb.png" />
+
+	<link href='https://fonts.googleapis.com/css?family=Fira+Sans:400&display=swap' rel='stylesheet' type='text/css' />
+	<link href="static/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<nav class="nav">
+	<div class="wrap">
+		<header class="header">
+			<a href="#" id="burger"><span></span><span></span><span></span></a>
+			<div class="logo">
+				<a href="/"><img src="static/logo.svg" alt="Sanchaya page" /></a>
+				<p class="slogan">A directory of Sanchaya's Kannada language computing projects and resources.</p>
+			</div>
+			<div class="intro">
+				<p><input id="search" class="search" type="text" placeholder="Search this page" /></p>
+			</div>
+		</header>
+	</div>
+</nav>
+
+<div class="wrap">
+	<div class="container">
+		<section class="sidebar" id="sidebar">
+			<ul class="index">
+        <li class="{% if category == 'All Projects' %}selected{% endif %}"><a href="index.html">All ({{ list | length }})</a></li>
+        {% for c in categories %}
+        <li class="{% if c == category %}selected{% endif %}"><a href="{{ c | lower }}.html">{{ c }} ({{ categories[c] }})</a></li>
+        {% endfor %}
+			</ul>
+		</section>
+
+
+		<section class="content">
+			{% if ((list_tags | length) + (list_languages | length)) > 0 %}
+				<a href="#" id="toggle-filters">Filter &rarr;</a>
+			{% endif %}
+			<section class="section" id="organisations">
+				<h3>{{ category }} ({{ list | length }})</h3>
+
+				<div class="filters" id="filters">
+					{% if list_languages | length > 1 %}
+						<div class="languages">
+							{% for l in list_languages %}
+								<label id="lang-{{ l }}">
+									<input type="checkbox" class="filter-language" for="lang-{{ l }}" checked value="{{ l | lower }}" />{{ l }}
+								</label>
+							{% endfor %}
+
+							<a href="#" class="toggle-filters" data-target="language" data-state="on">&larr; Toggle</a>
+						</div>
+					{% endif %}
+
+					{% if list_tags | length > 1 %}
+						<div class="tags">
+							{% for l in list_tags %}
+								<label id="tag-{{ l }}">
+									<input type="checkbox" class="filter-tag" for="tag-{{ l }}" checked value="{{ l | lower }}" />{{ l }}
+								</label>
+							{% endfor %}
+
+							<a href="#" class="toggle-filters" data-target="tag" data-state="on">&larr; Toggle</a>
+						</div>
+					{% endif %}
+				</div>
+
+				<ul id="items">
+					{% for i in list %}
+						<li class="item"
+							data-languages="{% for v in i.languages %}{{ v | lower}}|{% endfor %}"
+							data-tags="{% for v in i.tags %}{{ v | lower}}|{% endfor %}">
+							<h2 class="title">
+								{% for t in i.tags %}
+									<span class="tag">{{ t }}</span>
+								{% endfor %}
+								<a href="{{ i.url }}" class="link">{{ i.name }}</a>
+							</h2>
+
+							<p class="description">{{ i.description }}</p>
+
+							<div class="tags">
+								{% for l in i.languages %}
+									<span class="tag lang">{{ l }}</span>
+								{% endfor %}
+
+								<a href="" class="reveal">+{{ (i.languages | length) - 5 }} &larr; View all</a>
+							</div>
+						</li>
+					{% endfor %}
+				</ul>
+			</section>
+		</section><!-- content -->
+	</div><!-- container -->
+
+	<footer>
+		Edit this page at <a href="https://github.com/sanchaya/sanchaya.page">sanchaya/sanchaya.page</a>
+		&mdash; Sanchaya &mdash; <a href="https://sanchaya.org">sanchaya.org</a>
+	</footer>
+
+	<script src="static/main.js"></script>
+</div>
+</body>
+</html>

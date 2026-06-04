@@ -1,0 +1,119 @@
+---
+- name: Pada Sanchaya
+  description: Multi-dictionary search platform for Kannada language. Provides access to multiple authoritative Kannada dictionaries through a unified search interface.
+  url: "https://pada.sanchaya.net"
+  languages: [Kannada]
+  categories: [Tools]
+  tags: [FOSS, Web]
+
+- name: Fonts Sanchaya
+  description: Kannada Fonts Directory - a comprehensive showcase of Kannada fonts for identifying, previewing, and discovering usable fonts for the Kannada script.
+  url: "https://fonts.sanchaya.net"
+  languages: [Kannada]
+  categories: [Tools, Fonts]
+  tags: [FOSS, Web]
+
+- name: Kannada Font Converter
+  description: Convert legacy ASCII Kannada fonts (Nudi, Baraha, ShreeLipi, etc.) to Unicode. Browser-based tool for font encoding conversion.
+  url: "https://github.com/sanchaya/kannada-font-converter"
+  languages: [Kannada]
+  categories: [Tools]
+  tags: [FOSS, Web]
+
+- name: Akshara Sanchaya
+  description: Tool to analyze Kannada text and count varnas (syllables), swaras (vowels), vyanjanas (consonants), and other linguistic elements in Kannada text.
+  url: "https://github.com/sanchaya/akshara"
+  languages: [Kannada]
+  categories: [Tools, Code]
+  tags: [FOSS, JavaScript]
+
+- name: Vachana Sanchaya
+  description: Digital platform for researching and accessing Vachana literature - a body of Kannada devotional poetry from the 12th century Lingayat tradition.
+  url: "https://vachana.sanchaya.net"
+  languages: [Kannada]
+  categories: [Tools, Data]
+  tags: [FOSS, Web]
+
+- name: Grantha
+  description: Library indexing tool for organizing and discovering digital Kannada books and literary resources.
+  url: "https://grantha.sanchaya.net"
+  languages: [Kannada]
+  categories: [Tools]
+  tags: [FOSS, Web]
+
+- name: Karnata F-Kittel Font
+  description: Digital revival of a foundry typeface from the Basel Mission Press in Mangalore (1830-1900). A historically significant Kannada font reconstructed for modern digital use.
+  url: "https://github.com/sanchaya/karnata-f-kittel-font"
+  languages: [Kannada]
+  categories: [Fonts]
+  tags: [FOSS, Fonts]
+
+- name: TypeExtract
+  description: Typeface extraction tool for the Kannada Revival Fonts project. Helps extract and analyze glyph data from legacy typefaces.
+  url: "https://github.com/sanchaya/typeextract"
+  languages: [Kannada]
+  categories: [Tools, Code]
+  tags: [FOSS, Python]
+
+- name: Yakshagana Books
+  description: Digital collection of Yakshagana (traditional Kannada theatre) books and manuscripts, digitized under the Servants of Knowledge initiative.
+  url: "https://yakshagana.sanchaya.net"
+  languages: [Kannada]
+  categories: [Data, Books]
+  tags: [FOSS, Digitization]
+
+- name: O. L. N. Digital Books
+  description: Digital Kannada books collection from the works of O. L. Nagabhushana Swamy, preserved and made accessible online.
+  url: "https://oln.sanchaya.net"
+  languages: [Kannada]
+  categories: [Data, Books]
+  tags: [FOSS, Digitization]
+
+- name: Pavem Digital Books
+  description: Digital Kannada books repository featuring works from the Pavem literary collection.
+  url: "https://pavem.sanchaya.net"
+  languages: [Kannada]
+  categories: [Data, Books]
+  tags: [FOSS, Digitization]
+
+- name: Kasturi Magazines
+  description: Digital archive of Kasturi Kannada magazines, preserving decades of Kannada periodical literature.
+  url: "https://kasturi.sanchaya.net"
+  languages: [Kannada]
+  categories: [Data, Books]
+  tags: [FOSS, Digitization]
+
+- name: T. R. Anantaramu Books
+  description: Digital Kannada books collection from T. R. Anantaramu, making his literary works available to the wider community.
+  url: "https://tra.sanchaya.net"
+  languages: [Kannada]
+  categories: [Data, Books]
+  tags: [FOSS, Digitization]
+
+- name: GTN Digital Books
+  description: Digital Kannada books repository from the GTN (G. T. Narayana) literary collection.
+  url: "https://gtn.sanchaya.net"
+  languages: [Kannada]
+  categories: [Data, Books]
+  tags: [FOSS, Digitization]
+
+- name: Havanur Digital Books
+  description: Digital repository of works by Dr. Srinivasa Havanur, a prominent Kannada literary figure, made accessible for research and reading.
+  url: "https://havanur.sanchaya.net"
+  languages: [Kannada]
+  categories: [Data, Books]
+  tags: [FOSS, Digitization]
+
+- name: Digital Kannada Books
+  description: A showcase of the Servants of Knowledge project works, featuring digitized Kannada books from various collections under Sanchaya and Sanchi Foundation.
+  url: "https://github.com/sanchaya/digitalsanchaya"
+  languages: [Kannada]
+  categories: [Data, Books]
+  tags: [FOSS, Digitization]
+
+- name: Sanchaya Website
+  description: The official website of Sanchaya - a non-profit organization working to enhance technological capabilities for Kannada literature research.
+  url: "https://sanchaya.org"
+  languages: [Kannada, English]
+  categories: [Organisations]
+  tags: [FOSS]
