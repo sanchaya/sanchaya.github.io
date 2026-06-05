@@ -66,8 +66,21 @@ footer {
 	display: flex;
 	margin-bottom: 15px;
 }
+	.logo {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+	}
 	.logo a {
 		border: 0;
+		line-height: 0;
+	}
+	.logo img {
+		height: 48px;
+		width: auto;
+	}
+	.slogan {
+		margin: 0;
 	}
 	#burger {
 		float: right;
